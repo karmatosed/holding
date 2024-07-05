@@ -9,8 +9,8 @@
 // Admin Menu
 function holding_admin_menu() {
     add_menu_page(
-        'Holding Page Settings', // Page title
-        'Holding Page', // Menu title
+        esc_html__('Holding Page Settings', 'holding-page'), // Page title
+        esc_html__('Holding Page', 'holding-page'), // Menu title
         'manage_options', // Capability required to access the menu
         'holding-page-settings', // Menu slug
         'holding_settings_page', // Callback function to display the menu page
